@@ -1,0 +1,60 @@
+{
+  "version": 1,
+  "generatedAt": "2026-09-20T08:00:00+08:00",
+  "items": [
+    {
+      "code": "SB_ZY",
+      "name": "社保关系转移接续",
+      "category": "社保",
+      "durationMinutes": 15,
+      "requiredMaterials": ["身份证", "参保缴费凭证"],
+      "windowTypes": ["general"],
+      "advanceBookingDays": 7
+    },
+    {
+      "code": "JZZ_QZ",
+      "name": "居住证签注",
+      "category": "户籍",
+      "durationMinutes": 10,
+      "requiredMaterials": ["身份证", "居住证"],
+      "windowTypes": ["general"],
+      "advanceBookingDays": 7
+    },
+    {
+      "code": "GJJ_TQ",
+      "name": "公积金提取",
+      "category": "公积金",
+      "durationMinutes": 20,
+      "requiredMaterials": ["身份证", "提取申请表", "购房或租房证明"],
+      "windowTypes": ["fund"],
+      "advanceBookingDays": 10
+    },
+    {
+      "code": "DJ_DL",
+      "name": "个体工商户登记",
+      "category": "市场监管",
+      "durationMinutes": 30,
+      "requiredMaterials": ["身份证", "经营场所证明", "申请书"],
+      "windowTypes": ["enterprise"],
+      "advanceBookingDays": 14
+    },
+    {
+      "code": "CANJI_BT",
+      "name": "残疾人补贴申领",
+      "category": "民政",
+      "durationMinutes": 20,
+      "requiredMaterials": ["身份证", "残疾证", "代办委托书"],
+      "windowTypes": ["general", "accessible"],
+      "advanceBookingDays": 14
+    },
+    {
+      "code": "YLBX_CB",
+      "name": "城乡居民养老保险参保",
+      "category": "社保",
+      "durationMinutes": 15,
+      "requiredMaterials": ["身份证", "户口簿"],
+      "windowTypes": ["general"],
+      "advanceBookingDays": 7
+    }
+  ]
+}

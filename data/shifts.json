@@ -1,0 +1,126 @@
+{
+  "version": 1,
+  "timezone": "Asia/Shanghai",
+  "shifts": [
+    {
+      "code": "MORNING",
+      "window": "综合受理一号窗",
+      "windowType": "general",
+      "date": "2026-09-21",
+      "start": "08:30",
+      "end": "12:00",
+      "services": ["SB_ZY", "JZZ_QZ", "YLBX_CB", "CANJI_BT"],
+      "capacity": 6,
+      "accessible": true
+    },
+    {
+      "code": "AFTERNOON",
+      "window": "综合受理一号窗",
+      "windowType": "general",
+      "date": "2026-09-21",
+      "start": "13:30",
+      "end": "17:00",
+      "services": ["SB_ZY", "JZZ_QZ", "YLBX_CB", "CANJI_BT"],
+      "capacity": 6,
+      "accessible": true
+    },
+    {
+      "code": "NIGHT",
+      "window": "综合受理一号窗",
+      "windowType": "general",
+      "date": "2026-09-21",
+      "start": "21:00",
+      "end": "01:00",
+      "services": ["JZZ_QZ"],
+      "capacity": 4,
+      "crossMidnight": true,
+      "note": "跨零点夜班，号源归入开始日期 2026-09-21"
+    },
+    {
+      "code": "MORNING",
+      "window": "综合受理二号窗",
+      "windowType": "general",
+      "date": "2026-09-21",
+      "start": "08:30",
+      "end": "12:00",
+      "services": ["SB_ZY", "JZZ_QZ", "YLBX_CB"],
+      "capacity": 5,
+      "accessible": false
+    },
+    {
+      "code": "AFTERNOON",
+      "window": "综合受理二号窗",
+      "windowType": "general",
+      "date": "2026-09-21",
+      "start": "13:30",
+      "end": "17:00",
+      "services": ["SB_ZY", "JZZ_QZ", "YLBX_CB"],
+      "capacity": 5,
+      "accessible": false
+    },
+    {
+      "code": "ALLDAY",
+      "window": "公积金专窗",
+      "windowType": "fund",
+      "date": "2026-09-21",
+      "start": "09:00",
+      "end": "17:00",
+      "services": ["GJJ_TQ"],
+      "capacity": 8
+    },
+    {
+      "code": "ALLDAY",
+      "window": "企业开办窗",
+      "windowType": "enterprise",
+      "date": "2026-09-21",
+      "start": "09:00",
+      "end": "17:00",
+      "services": ["DJ_DL"],
+      "capacity": 6
+    },
+    {
+      "code": "MORNING",
+      "window": "综合受理一号窗",
+      "windowType": "general",
+      "date": "2026-09-22",
+      "start": "08:30",
+      "end": "12:00",
+      "services": ["SB_ZY", "JZZ_QZ", "YLBX_CB", "CANJI_BT"],
+      "capacity": 6,
+      "accessible": true
+    },
+    {
+      "code": "AFTERNOON",
+      "window": "综合受理一号窗",
+      "date": "2026-09-22",
+      "start": "13:30",
+      "end": "17:00",
+      "services": ["SB_ZY", "JZZ_QZ", "YLBX_CB", "CANJI_BT"],
+      "capacity": 6,
+      "windowType": "general",
+      "accessible": true
+    },
+    {
+      "code": "ALLDAY",
+      "window": "公积金专窗",
+      "windowType": "fund",
+      "date": "2026-10-01",
+      "start": "09:00",
+      "end": "17:00",
+      "services": ["GJJ_TQ"],
+      "capacity": 8,
+      "note": "国庆节当日班次，按节假日政策应停办（见 holidays.json）"
+    },
+    {
+      "code": "ALLDAY",
+      "window": "综合受理一号窗",
+      "windowType": "general",
+      "date": "2026-10-10",
+      "start": "09:00",
+      "end": "12:00",
+      "services": ["SB_ZY", "JZZ_QZ"],
+      "capacity": 6,
+      "note": "国庆调休上班日（周六），按工作日开放"
+    }
+  ]
+}
