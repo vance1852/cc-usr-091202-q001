@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "services": [
+    {
+      "code": "SB-ZY-01",
+      "name": "社保关系转移",
+      "windowType": "general",
+      "windowMinutes": 15,
+      "requiredMaterials": ["身份证", "社保卡", "参保缴费凭证"]
+    },
+    {
+      "code": "JZZ-QZ-02",
+      "name": "居住证签注",
+      "windowType": "general",
+      "windowMinutes": 10,
+      "requiredMaterials": ["身份证", "居住证", "住所证明"]
+    },
+    {
+      "code": "SC-DJ-04",
+      "name": "市场主体设立登记",
+      "windowType": "general",
+      "windowMinutes": 20,
+      "requiredMaterials": ["身份证", "公司章程", "住所证明"]
+    },
+    {
+      "code": "GA-HZ-03",
+      "name": "户政业务（夜间自助办理）",
+      "windowType": "overnight",
+      "windowMinutes": 20,
+      "requiredMaterials": ["身份证"]
+    }
+  ]
+}

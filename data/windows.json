@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "windows": [
+    {
+      "id": "W-G1",
+      "name": "综合受理一号窗",
+      "type": "general",
+      "services": ["SB-ZY-01", "JZZ-QZ-02"],
+      "slots": [
+        { "id": "AM", "label": "上午班", "start": "09:00", "end": "12:00", "capacity": 18 },
+        { "id": "PM", "label": "下午班", "start": "13:30", "end": "17:00", "capacity": 12 }
+      ]
+    },
+    {
+      "id": "W-G2",
+      "name": "综合受理二号窗",
+      "type": "general",
+      "services": ["JZZ-QZ-02", "SC-DJ-04"],
+      "slots": [
+        { "id": "AM", "label": "上午班", "start": "09:00", "end": "12:00", "capacity": 12 },
+        { "id": "PM", "label": "下午班", "start": "13:30", "end": "17:00", "capacity": 10 }
+      ]
+    },
+    {
+      "id": "W-N1",
+      "name": "24小时自助服务区夜间窗",
+      "type": "overnight",
+      "services": ["GA-HZ-03"],
+      "slots": [
+        {
+          "id": "NIGHT",
+          "label": "夜间跨日班",
+          "start": "21:00",
+          "end": "01:30",
+          "crossDay": true,
+          "capacity": 6,
+          "note": "时段跨过零点，号源归属开班当日"
+        }
+      ]
+    }
+  ]
+}

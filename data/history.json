@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "note": "脱敏历史取号记录，仅用于峰谷与爽约率统计，不进入当日事件流",
+  "records": [
+    { "date": "2026-09-14", "windowId": "W-G1", "slotId": "AM", "serviceCode": "SB-ZY-01", "issued": 18, "served": 16, "noShow": 2, "cancelled": 0 },
+    { "date": "2026-09-14", "windowId": "W-G1", "slotId": "PM", "serviceCode": "JZZ-QZ-02", "issued": 11, "served": 10, "noShow": 1, "cancelled": 0 },
+    { "date": "2026-09-15", "windowId": "W-G1", "slotId": "AM", "serviceCode": "SB-ZY-01", "issued": 18, "served": 15, "noShow": 2, "cancelled": 1 },
+    { "date": "2026-09-15", "windowId": "W-G2", "slotId": "PM", "serviceCode": "SC-DJ-04", "issued": 9, "served": 9, "noShow": 0, "cancelled": 0 },
+    { "date": "2026-09-16", "windowId": "W-G2", "slotId": "AM", "serviceCode": "JZZ-QZ-02", "issued": 12, "served": 10, "noShow": 2, "cancelled": 0 },
+    { "date": "2026-09-16", "windowId": "W-N1", "slotId": "NIGHT", "serviceCode": "GA-HZ-03", "issued": 5, "served": 5, "noShow": 0, "cancelled": 0 },
+    { "date": "2026-09-17", "windowId": "W-N1", "slotId": "NIGHT", "serviceCode": "GA-HZ-03", "issued": 6, "served": 4, "noShow": 2, "cancelled": 0 },
+    { "date": "2026-09-18", "windowId": "W-G1", "slotId": "AM", "serviceCode": "SB-ZY-01", "issued": 17, "served": 16, "noShow": 1, "cancelled": 0 },
+    { "date": "2026-09-21", "windowId": "W-G2", "slotId": "PM", "serviceCode": "JZZ-QZ-02", "issued": 10, "served": 7, "noShow": 3, "cancelled": 0 }
+  ]
+}
